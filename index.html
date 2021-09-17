@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HW-11-timer</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="timer" id="timer-1">
+        <div class="field">
+          <span class="value" data-value="days">00</span>
+          <span class="label">Days</span>
+        </div>
+
+        <div class="field">
+          <span class="value" data-value="hours">00</span>
+          <span class="label">Hours</span>
+        </div>
+
+        <div class="field">
+          <span class="value" data-value="mins">00</span>
+          <span class="label">Minutes</span>
+        </div>
+
+        <div class="field">
+          <span class="value" data-value="secs">00</span>
+          <span class="label">Seconds</span>
+        </div>
+        <input class="input" type="date" data-action="input" />
+        <button class="button" type="button" data-action="start">Start</button>
+        <button class="button" type="button" data-action="stop">Stop</button>
+      </div>
+    </div>
+
+    <script src="./js/app.js" type="module"></script>
+  </body>
+</html>
