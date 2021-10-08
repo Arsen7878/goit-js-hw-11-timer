@@ -22,16 +22,22 @@
 .button {
   cursor: pointer;
   font-size: 24px;
+  padding: 10px 30px;
   border: none;
+  background-color: blueviolet;
+  color: white;
+  transform: scale(1);
+  transition: transform 250ms;
 }
+
+.button:hover {
+  transform: scale(1.1);
+}
+
 [data-action='start'] {
   margin-left: 30px;
 }
 
 [data-action='stop'] {
-  margin-left: 30px;
-}
-
-.input {
   margin-left: 30px;
 }
